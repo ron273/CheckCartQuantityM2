@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <checkcartquantity>
+            <general>
+                <enable>1</enable>
+                <multiplier>6</multiplier>
+                <excluded_cats>0</excLuded_cats>
+                <display_text>Je kunt alleen bestellen in veelvouden van %. Vul je winkelwagen aan tot het juiste aantal artikelen.</display_text>
+            </general>
+        </checkcartquantity>
+    </default>
+</config>
