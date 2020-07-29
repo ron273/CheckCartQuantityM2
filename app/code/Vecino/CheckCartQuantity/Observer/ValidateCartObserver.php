@@ -1,4 +1,10 @@
 <?php
+/**
+ * @author      Ronald Smit 
+ * @description Based on the code provided by Tsvetan Stoychev <https://github.com/ceckoslab>
+ * @website     http://www.rsdev.nl
+ * @license     http://opensource.org/licenses/osl-3.0.php Open Software Licence 3.0 (OSL-3.0)
+ */
 namespace Vecino\CheckCartQuantity\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
