@@ -12,4 +12,4 @@ This is a Magento 2 module that allows you to limit checkout only when the conte
 4. Your module should now be activated.
 
 ## Credits
-The original M1 version of this module was developed by [ceckoslab](https://github.com/ceckoslab) in 2015. This M1 module was used to create the M2 version.
+The original M1 version of this module was developed by @ceckoslab in 2015. This M1 module was used to create the M2 version.
