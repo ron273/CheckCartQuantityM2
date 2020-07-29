@@ -7,6 +7,9 @@ This is a Magento 2 module that allows you to limit checkout only when the conte
 3. Open up a terminal and SSH into your Magento root folder and use the following commands:
    - `$ bin/magento setup:upgrade`
    - `$ bin/magento setup:static-content:deploy`
-   - `$bin/magento cache:clean`
-   - `$bin/magento cashe:flush`
+   - `$ bin/magento cache:clean`
+   - `$ bin/magento cashe:flush`
 4. Your module should now be activated.
+
+## Credits
+The original M1 version of this module was developed by [ceckoslab](https://github.com/ceckoslab) in 2015. This M1 module was used to create the M2 version.
