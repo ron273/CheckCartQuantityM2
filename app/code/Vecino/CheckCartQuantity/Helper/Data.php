@@ -1,5 +1,5 @@
 <?php
-namespace Vecino\CheckCartQuantity\Helper;
+namespace Rsdev\CheckCartQuantity\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;

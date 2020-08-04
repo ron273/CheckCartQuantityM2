@@ -1,5 +1,5 @@
 {
-  "name": "vecino/checkcartquantity",
+  "name": "rsdev/checkcartquantity",
   "description": "Only allows checkout when cart contents are multiple of X",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -14,7 +14,7 @@
   "authors": [
     {
       "name": "Ronald Smit",
-      "email": "ronald@rsdev.nl",
+      "email": "ronald.smit@rsdev.nl",
       "homepage": "https://www.rsdev.nl/",
       "role": "Developer"
     }
@@ -22,7 +22,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Vecino\\CheckCartQuantity\\": ""
+      "Rsdev\\CheckCartQuantity\\": ""
     }
   }
 }

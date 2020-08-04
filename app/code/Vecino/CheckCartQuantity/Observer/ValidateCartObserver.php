@@ -1,11 +1,11 @@
 <?php
 /**
- * @author      Ronald Smit 
+ * @author      Ronald Smit
  * @description Based on the code provided by Tsvetan Stoychev <https://github.com/ceckoslab>
  * @website     http://www.rsdev.nl
  * @license     http://opensource.org/licenses/osl-3.0.php Open Software Licence 3.0 (OSL-3.0)
  */
-namespace Vecino\CheckCartQuantity\Observer;
+namespace Rsdev\CheckCartQuantity\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Checkout\Model\Cart as CustomerCart;
@@ -13,7 +13,7 @@ use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\App\Response\RedirectInterface;
 use Magento\Framework\Event\Observer;
 
-use Vecino\CheckCartQuantity\Helper\Data as HelperData;
+use Rsdev\CheckCartQuantity\Helper\Data as HelperData;
 
 class ValidateCartObserver implements ObserverInterface
 {
@@ -51,7 +51,7 @@ class ValidateCartObserver implements ObserverInterface
         $this->messageManager = $messageManager;
         $this->redirect = $redirect;
         $this->cart = $cart;
-        
+
         $this->helperData = $helperData;
     }
 
@@ -62,7 +62,7 @@ class ValidateCartObserver implements ObserverInterface
      * @param Observer $observer
      * @return void
      */
-        
+
     public function execute(Observer $observer)
     {
         /* Get quote data from current cart */
@@ -73,24 +73,24 @@ class ValidateCartObserver implements ObserverInterface
         $multiplier     = $this->helperData->getGeneralConfig('multiplier');
         /* Warning text */
         $warning_text   = $this->helperData->getGeneralConfig('display_text');
-        /* 
+        /*
         Array with excluded category ID's */
         if ( empty($this->helperData->getGeneralConfig('excluded_cats') ) ){
             $excludedCats = array();
         } else {
             $excludedCats   = explode( ',', $this->helperData->getGeneralConfig('excluded_cats'));
         }
-        
+
         /* Set cart quantity to zero */
         $totalQty       = 0;
-        
+
         foreach($quote->getAllVisibleItems() as $item) {
             /** Set check counter to 0 */
             $count = 0;
-            
+
             /** Get category ID's this item is linked to */
             $cats = $item->getProduct()->getCategoryIds();
-            
+
             /** Check if any of there ID's is in the excluded array */
             foreach ($cats as $cat) {
                 if (in_array($cat, $excludedCats)) {

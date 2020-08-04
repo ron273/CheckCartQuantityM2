@@ -2,6 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="controller_action_predispatch_checkout_index_index">
-        <observer name="validate_cart" instance="Vecino\CheckCartQuantity\Observer\ValidateCartObserver" />
+        <observer name="validate_cart" instance="Rsdev\CheckCartQuantity\Observer\ValidateCartObserver" />
     </event>
 </config>
