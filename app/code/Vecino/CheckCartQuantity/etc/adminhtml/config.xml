@@ -6,7 +6,7 @@
                 <enable>1</enable>
                 <multiplier>6</multiplier>
                 <excluded_cats>0</excLuded_cats>
-                <display_text>Je kunt alleen bestellen in veelvouden van %. Vul je winkelwagen aan tot het juiste aantal artikelen.</display_text>
+                <display_text>Je kunt alleen bestellen in veelvouden van %. Controleer je winkelwagen voordat je afrekent.</display_text>
             </general>
         </checkcartquantity>
     </default>
