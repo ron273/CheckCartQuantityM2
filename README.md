@@ -13,3 +13,20 @@ This is a Magento 2 module that allows you to limit checkout only when the conte
 
 ## Credits
 The original M1 version of this module was developed by [ceckoslab](https://github.com/ceckoslab) in 2015. This M1 module was used to create the M2 version.
+
+## Testing formatting README
+![](https://img.shields.io/badge/Coding-PHP-informational?style=flat-square&logo=php&logoColor=white&color=2bbc8a)
+
+<!-- Actual text -->
+
+You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
+
+<!-- Icons -->
+
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
+
+<!-- Links to your social media accounts -->
+
+[1]: https://twitter.com/
+[2]: https://www.linkedin.com/
