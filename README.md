@@ -4,7 +4,7 @@ This is a Magento 2 module that allows you to limit checkout only when the conte
 
 ## Screenshots
 ###### Backend view
-<img src="https://vecino.skyberatedev.nl/pub/media/screenshot1.jpg" alt="Screenshot Backend" /> 
+<img border="1" src="https://vecino.skyberatedev.nl/pub/media/screenshot1.jpg" alt="Screenshot Backend" /> 
 
 ###### Frontend view
 <img src="https://vecino.skyberatedev.nl/pub/media/screenshot2.jpg" alt="Screenshot Frontend" />
