@@ -24,3 +24,7 @@ The original M1 version of this module was developed by [ceckoslab](https://gith
 
 ## Disclaimer
 This is a fully functioning Magento 2 Module. However as I am not a professional developer, please review the code before using this in production. If there are any suggestions to improve the functionality or security of this code, please let me know.
+
+## Compatibility
+This version is tested on Magento 2.3.5-p1.
+
